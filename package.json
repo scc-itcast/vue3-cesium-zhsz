@@ -1,0 +1,70 @@
+{
+  "name": "vue-cesium",
+  "version": "v3.0.12",
+  "description": "Vue 3.x components for CesiumJS.",
+  "author": "zouyaoji <370681295@qq.com>",
+  "homepage": "https://github.com/zouyaoji/vue-cesium#readme",
+  "keywords": [
+    "vue-cesium",
+    "cesium",
+    "webgl",
+    "gis",
+    "vue",
+    "webgis"
+  ],
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./es/index.mjs"
+    },
+    "./es": "./es/index.mjs",
+    "./lib": "./lib/index.js",
+    "./*": "./*"
+  },
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "style": "dist/index.css",
+  "unpkg": "dist/index.full.js",
+  "jsdelivr": "dist/index.full.js",
+  "sideEffects": [
+    "dist/*",
+    "theme-default/*.css",
+    "theme-default/src/*.scss",
+    "es/components/*/style/*",
+    "lib/components/*/style/*",
+    "lib/components/**/*",
+    "es/components/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zouyaoji/vue-cesium.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zouyaoji/vue-cesium/issues"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "@zouyaoji/heatmap.js": "^2.0.8",
+    "@vue/shared": "^3.2.26",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21",
+    "lodash-unified": "^1.0.1",
+    "mitt": "^3.0.0",
+    "proj4": "^2.7.5"
+  },
+  "vetur": {
+    "tags": "tags.json",
+    "attributes": "attributes.json"
+  },
+  "web-types": "web-types.json",
+  "browserslist": [
+    "> 1%",
+    "not ie 11",
+    "not op_mini all"
+  ],
+  "gitHead": "c54bc512306ee8c8724d8427529d62559b40727a"
+}

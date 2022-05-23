@@ -1,0 +1,2 @@
+declare const text = "\nuniform sampler2D currentParticlesPosition; // (lon, lat, lev)\nuniform sampler2D particlesSpeed; // (u, v, w, norm) Unit converted to degrees of longitude and latitude\n\nvarying vec2 v_textureCoordinates;\n\nvoid main() {\n  // texture coordinate must be normalized\n  vec3 lonLatLev = texture2D(currentParticlesPosition, v_textureCoordinates).rgb;\n  vec3 speed = texture2D(particlesSpeed, v_textureCoordinates).rgb;\n  vec3 nextParticle = lonLatLev + speed;\n\n  gl_FragColor = vec4(nextParticle, 0.0);\n}\n";
+export default text;

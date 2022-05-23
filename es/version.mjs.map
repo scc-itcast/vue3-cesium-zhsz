@@ -1,0 +1,1 @@
+{"version":3,"file":"version.mjs","sources":["../../../packages/vue-cesium/version.ts"],"sourcesContent":["export const version = '3.0.12'\n"],"names":[],"mappings":"AAAY,MAAC,OAAO,GAAG;;;;"}

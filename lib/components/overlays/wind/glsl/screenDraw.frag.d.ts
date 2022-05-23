@@ -1,0 +1,2 @@
+declare const text = "\nuniform sampler2D trailsColorTexture;\nuniform sampler2D trailsDepthTexture;\n\nvarying vec2 textureCoordinate;\n\nvoid main() {\n  vec4 trailsColor = texture2D(trailsColorTexture, textureCoordinate);\n  float trailsDepth = texture2D(trailsDepthTexture, textureCoordinate).r;\n  float globeDepth = czm_unpackDepth(texture2D(czm_globeDepthTexture, textureCoordinate));\n\n  if (trailsDepth < globeDepth) {\n    gl_FragColor = trailsColor;\n  } else {\n    gl_FragColor = vec4(0.0);\n  }\n}\n";
+export default text;
