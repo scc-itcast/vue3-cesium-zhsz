@@ -1,11 +1,10 @@
 {
-  "name": "vue-cesium",
+  "name": "vue3-cesium-zhsz",
   "version": "1.0.0",
   "description": "Vue 3.x components for CesiumJS.",
-  "author": "zouyaoji <370681295@qq.com>",
-  "homepage": "https://github.com/zouyaoji/vue-cesium#readme",
+  "author": "scc",
   "keywords": [
-    "vue-cesium",
+    "vue3-cesium-zhsz",
     "cesium",
     "webgl",
     "gis",
@@ -38,10 +37,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zouyaoji/vue-cesium.git"
+    "url": "git@github.com:scc-itcast/vue3-cesium-zhsz.git"
   },
   "bugs": {
-    "url": "https://github.com/zouyaoji/vue-cesium/issues"
+    "url": "git@github.com:scc-itcast/vue3-cesium-zhsz/issues",
+    "email": "scc15599065860@163.com"
   },
   "peerDependencies": {
     "vue": "^3.2.0"
