@@ -34,7 +34,7 @@
 - 💪 Vue 3.0 Composition API
 - 🔥 Written in TypeScript
 
-## Getting Started | [简体中文](./README.zh.md)
+## Getting Started
 
 基于 vue-cesium 在 VcNavigation 中的 VcCompass 上新增了插槽功能
 
