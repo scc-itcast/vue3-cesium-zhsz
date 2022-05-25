@@ -38,6 +38,10 @@
 
 基于 vue-cesium 在 VcNavigation 中的 VcCompass 上新增了插槽功能
 
+modify
+
+- dist 文件夹下 index.css 文件中 .vc-btn--round class 类 删除 border-radius:50%;
+
 You can find for more details, API, and other docs on [https://zouyaoji.top/vue-cesium/#/](https://zouyaoji.top/vue-cesium/#/)
 
 - 中国大陆[加速镜像站点](https://vue-cesium.songluck.com)

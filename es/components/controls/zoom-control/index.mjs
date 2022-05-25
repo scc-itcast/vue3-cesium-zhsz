@@ -275,6 +275,9 @@ var ZoomControl = defineComponent({
     return () => {
       if (canRender.value) {
         const children = [];
+        if(ctx.slots.outer) {
+          children.push(h("li", {style: {position: 'absolute'}}, ctx.slots.outer()))
+        }
         children.push(h("li", null, getContent(zoomInOptions.value, "zoomIn")));
         if (props.enableResetButton) {
           children.push(
